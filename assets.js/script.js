@@ -1,8 +1,12 @@
-document.addEventListener("click",function(event){
-    console.log(position)
-        nextQuestion(); 
-    })
-    
+var startQuiz = document.getElementById("quizstart");
+
+
+startQuiz.addEventListener("click", startQuiz);
+
+
+// document.addEventListener("click",function(event){
+  
+
     function nextQuestion(){
         position++
         document.querySelector("#question_header").innerText = "<h4>"+questionArray[position].question+"</h4>"
@@ -11,13 +15,8 @@ document.addEventListener("click",function(event){
 
     function timer (){
         time = 60
-        if(time i=0, ){
-            stopInterval(){}
-            stopQuiz(){
-                console.log("you need to code out how to stop the quiz")
-            }
-        }
-       }
+        if(time < 60 {alert: "your time is up"}}
+      
        
 startInterval(timer,1000)
 
