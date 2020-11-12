@@ -11,7 +11,7 @@ document.addEventListener("click",function(event){
 
     function timer (){
         time = 60
-        if(time i=0, ){
+        if(var i=0; i < questions.length; i++ ){
             stopInterval(){}
             stopQuiz(){
                 console.log("you need to code out how to stop the quiz")

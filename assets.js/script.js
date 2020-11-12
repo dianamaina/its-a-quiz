@@ -1,4 +1,4 @@
-var startQuiz = document.getElementById("quizstart");
+var startQuiz = document.getElementById("startQuiz");
 
 
 startQuiz.addEventListener("click", startQuiz);
